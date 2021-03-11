@@ -4,16 +4,17 @@ Decision Trees are great for interpretibility and to make quick decisions. Here 
 
 The [data](https://www.kaggle.com/henriqueyamahata/bank-marketing) is also available on kaggle is related with direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be (or not) subscribed.
 
+```
 Number of Instances: 45211
-
 Number of Attributes: 16 + output attribute.
+```
 
-The classification goal is to predict if the client will subscribe a term deposit (variable y).
+The classification task is to predict if the client will subscribe a term deposit (variable y).
 
 ## Attribute information:
 ___
 
-## Input variables:
+### Input variables:
 
 Bank client data:
 1 - age (numeric)
@@ -50,7 +51,7 @@ other attributes:
 
 16 - poutcome: outcome of the previous marketing campaign (categorical: "unknown","other","failure","success")
 
-## Output variable (desired target):
+### Output variable (desired target):
 17 - y - has the client subscribed a term deposit? (binary: "yes","no")
 
 # Strategy
