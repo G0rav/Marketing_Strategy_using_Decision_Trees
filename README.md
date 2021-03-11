@@ -1,8 +1,8 @@
 # Marketing_strategy
-Give a Marketing strategy to bank using dataset available on http://archive.ics.uci.edu/ml/datasets/Bank+Marketing.
+Decision Trees are great for interpretibility and to make quick decisions. Here I've tried to make a Marketing strategy for bank using dataset available on UCI machine learning repository http://archive.ics.uci.edu/ml/datasets/Bank+Marketing.
 
 
-The [data](https://www.kaggle.com/henriqueyamahata/bank-marketing) taken from kaggle is related with direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be (or not) subscribed.
+The [data](https://www.kaggle.com/henriqueyamahata/bank-marketing) is also available on kaggle is related with direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be (or not) subscribed.
 
 Number of Instances: 45211
 
@@ -15,7 +15,7 @@ ___
 
 ## Input variables:
 
-### Bank client data:
+Bank client data:
 1 - age (numeric)
 
 2 - job : type of job (categorical: "admin.","unknown","unemployed","management","housemaid","entrepreneur","student", "blue-collar","self-employed","retired","technician","services")
@@ -32,7 +32,7 @@ ___
 
 8 - loan: has personal loan? (binary: "yes","no")
 
-### related with the last contact of the current campaign:
+related with the last contact of the current campaign:
 9 - contact: contact communication type (categorical: "unknown","telephone","cellular")
 
 10 - day: last contact day of the month (numeric)
@@ -41,7 +41,7 @@ ___
 
 12 - duration: last contact duration, in seconds (numeric)
 
-### other attributes:
+other attributes:
 13 - campaign: number of contacts performed during this campaign and for this client (numeric, includes last contact)
 
 14 - pdays: number of days that passed by after the client was last contacted from a previous campaign (numeric, -1 means client was not previously contacted)
@@ -52,3 +52,6 @@ ___
 
 ## Output variable (desired target):
 17 - y - has the client subscribed a term deposit? (binary: "yes","no")
+
+# Strategy
+<img src="https://github.com/G0rav/Marketing_Strategy_using_Decision_Trees/blob/main/Strategy.png">
