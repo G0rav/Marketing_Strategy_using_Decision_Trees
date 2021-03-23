@@ -54,5 +54,10 @@ other attributes:
 ### Output variable (desired target):
 17 - y - has the client subscribed a term deposit? (binary: "yes","no")
 
-# Strategy
-<img src="https://github.com/G0rav/Marketing_Strategy_using_Decision_Trees/blob/main/Strategy.png">
+# Strategy and Feature Importance
+<img src="https://github.com/G0rav/Marketing_Strategy_using_Decision_Trees/blob/main/Strategy.svg">
+
+<br>
+
+<img src="https://github.com/G0rav/Marketing_Strategy_using_Decision_Trees/blob/main/Feature_importance.png">
+
